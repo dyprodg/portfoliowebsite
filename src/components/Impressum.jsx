@@ -3,7 +3,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 const Impressum = () => {
   return (
-    <MDBFooter bgColor='light' className='max-w-[1040px] m-auto md:pl-20 justify-center text-center text-lg-start text-muted'>
+    <MDBFooter bgColor='light' className='max-w-[1040px] m-auto pl-0 justify-center text-center text-lg-start text-muted'>
       <MDBContainer>
         <MDBRow className='mt-3'>
           <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>

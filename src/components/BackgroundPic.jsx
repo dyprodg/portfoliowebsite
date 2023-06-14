@@ -11,11 +11,12 @@ const BackgroundPic = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, delay: 0.3 }}
+
     >
       <img className='w-full h-screen object-cover object-top' src={picture} alt='Dennis'/>
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
-        <div className='max-w-[700px] p-20 m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-          <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Hi! I'm Dennis Diepolder</h1>
+        <div className='max-w-[700px] md:max-w-[1040px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
+          <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Hi! My Name Is Dennis</h1>
           <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>I'm
           <TypeAnimation
             sequence={[
@@ -27,7 +28,7 @@ const BackgroundPic = () => {
             1000,
             'a Photographer',
             1000,
-            'a Developer',
+            'a Junior Web Developer',
             1000
             ]}
             wrapper="span"
