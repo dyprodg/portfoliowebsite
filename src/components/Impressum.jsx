@@ -20,14 +20,14 @@ const Impressum = () => {
               <MDBIcon icon='phone' className='me-3' /> +49 160 91208750
             </p>
             <p className='text-xs m-auto text-muted'>
-              <MDBIcon icon='cookies' className='me-3' /> This website only uses technically necessary cookies. These cookies are essential for the operation of the website and do not store any personally identifiable information. By continuing to browse the site, you agree to the use of these cookies.
+              <MDBIcon icon='cookies' className='me-3' /> This website only uses technically necessary cookies. These cookies are essential for the operation of the website and do not store any personally identifiable information. By continuing to browse the site, you agree to the use of these cookies. The website collects no personal data.
             </p>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
 
       <div className='text-center p-1 rounded-xl'>
-        <p className="mb-0">© 2023 dyprod.de</p>
+        <p className="mb-0">© 2023 dennisdiepolder.com</p>
         <p className="mb-0">All rights reserved</p>
       </div>
     </MDBFooter>
