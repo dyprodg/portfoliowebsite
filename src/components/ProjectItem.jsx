@@ -8,7 +8,7 @@ const ProjectItem = ({ img, title , link}) => {
   <h3 className='text-2xl font-bold text-white tracking-wider text-center'>
     {title}
   </h3>
-  <p className='pb-4 pt-2 text-white text-center'>React Js</p>
+  <p className='pb-4 pt-2 text-white text-center'>Next.js 13</p>
   <a>
   <p onClick={() => window.open(link, '_blank')}
    className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg w-[150px] hover:scale-110 ease-in duration-150'>

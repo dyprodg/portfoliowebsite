@@ -14,7 +14,7 @@ const Projects = () => {
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={FIRST} title='Bearson Landingpage' link='https://bearson-dyprodg.vercel.app'/>
-            <ProjectItem img={SECOND} title='secondone' />
+            <ProjectItem img={SECOND} title='AI Img Generator' link='https://ai-img-psi.vercel.app' />
             <ProjectItem img={THIRD} title='thirdone' />
             <ProjectItem img={FOURTH} title='fourthone' />
         </div>
