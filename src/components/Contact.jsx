@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter , FaFacebookF , FaInstagram , FaLinkedinIn } from  'react-icons/fa'
+import { FaTwitter , FaFacebookF , FaGithub , FaLinkedinIn } from  'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -17,8 +17,8 @@ const Contact = () => {
               className='cursor-pointer hover:scale-110 ease-in duration-200 mr-8'
               size={100}
             />
-            <FaInstagram
-              onClick={() => window.open('https://www.instagram.com/dyprod/', '_blank')}
+            <FaGithub
+              onClick={() => window.open('https://github.com/dyprodg', '_blank')}
               className='cursor-pointer hover:scale-110 ease-in duration-200 mr-8'
               size={100}
             />

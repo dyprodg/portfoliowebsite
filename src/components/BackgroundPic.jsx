@@ -2,7 +2,7 @@ import React from 'react';
 import {TypeAnimation} from 'react-type-animation'
 import { motion } from 'framer-motion';
 import picture from '../assets/dennis.jpeg';
-import { FaTwitter , FaFacebookF , FaInstagram , FaLinkedinIn } from  'react-icons/fa'
+import { FaTwitter , FaFacebookF , FaGithub , FaLinkedinIn } from  'react-icons/fa'
 
 const BackgroundPic = () => {
   return (
@@ -15,18 +15,16 @@ const BackgroundPic = () => {
     >
       <img className='w-full h-screen object-cover object-top' src={picture} alt='Dennis'/>
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
-        <div className='max-w-[700px] md:max-w-[1040px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
+        <div className='max-w-[700px] md:max-w-[800px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Hi! My Name Is Dennis</h1>
           <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>I'm
           <TypeAnimation
             sequence={[
-            'a Musician',
+            'a Software Engineer',
             1000,
             'a Tech Enthusiast',
             1000,
-            'a Audio Engineer',
-            1000,
-            'a Photographer',
+            'a DevOps',
             1000,
             'a Junior Web Developer',
             1000
@@ -48,8 +46,8 @@ const BackgroundPic = () => {
               className='cursor-pointer hover:scale-110 ease-in duration-200'
               size={20}
             />
-            <FaInstagram
-              onClick={() => window.open('https://www.instagram.com/dyprod/', '_blank')}
+            <FaGithub
+              onClick={() => window.open('https://github.com/dyprodg', '_blank')}
               className='cursor-pointer hover:scale-110 ease-in duration-200'
               size={20}
             />
@@ -59,6 +57,16 @@ const BackgroundPic = () => {
               size={20}
             />
           </div>
+          <motion.div 
+          initial={{ opacity: 0, x: 500}}
+          animate={{ opacity: 1, x: 0}}
+          transition={{ duration: 0.5, delay: 6 }}
+          className='max-w-[700px] mt-20 text-xl py-5 px-5 text-gray-800'>
+            <h1 className='font-bold text-2xl'>What are my goals?</h1>
+            <p>My long-term goal is to acquire a range of skills in the IT industry, allowing me to evolve into a full-stack developer with increasing experience.My primary focus leans a bit more towards frontend, as I have been involved with design and UI/UX for a while now. However, I am equally interested in expanding my horizons in the backend and Infrastructure as Code (IaC).</p>
+
+          </motion.div>
+
         </div>
       </div>
     </motion.div>
