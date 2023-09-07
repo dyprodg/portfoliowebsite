@@ -28,31 +28,34 @@ const Contact = () => {
               className='cursor-pointer hover:scale-110 ease-in duration-200 mr-8'
               size={100} />
         </div>
-        <form action="" method='POST' encType='multipart/from-data'>
+        <form className='pr-4' action="https://getform.io/f/73cdac2c-0a93-4079-9330-18a983ba2669" method='POST' encType='multipart/form-data'>
           <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
             <div className='flex flex-col'>
               <label className='uppercase text-sm py-2'>Name</label>
-              <input className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' type='text' name='name' />
+              <input className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' type='text' name='name' placeholder='Name'required/>
             </div>
             <div className='flex flex-col'>
               <label className='uppercase text-sm py-2'>Phone Number</label>
-              <input className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' type='text' name='phone' />
+              <input className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' type='text' name='phone' placeholder='optional'/>
             </div>
           </div>
           <div className='flex flex-col'>
-            <label className='uppercase text-sm py-2'>Email</label>
-            <input className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' type='email' name='email'/>
+            <label className='uppercase text-sm py-2' >Email</label>
+            <input className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' type='email' name='email'placeholder='Email'required/>
           </div>
           <div className='flex flex-col'>
             <labe className='uppercase text-sm py-2'>Subject</labe>
-            <input className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' type='text' name='subject'/>
+            <input className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' type='text' name='subject' placeholder="Subject"/>
           </div>
           <div className='flex flex-col'>
-            <label className='uppercase text-sm py-2'>Message</label>
-            <textarea className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' rows='10' name='message'/>
+            <label className='uppercase text-sm py-2' placeholder='Write me a message!'required>Message</label>
+            <textarea className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow' rows='10' name='message'placeholder='Write me a message!'required/>
           </div>
-          
+          <button className='bg-black text-white mt-4 w-full p-4 rounded-lg shadow-lg hover:scale-105 ease-in duration-100'>
+            Send Message
+          </button>
         </form>
+
     </div>
   )
 }
