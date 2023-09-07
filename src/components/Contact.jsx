@@ -24,6 +24,13 @@ const Contact = () => {
     .then(response => {
       if (response.ok) {
         alert('Your Message was send successfully!');
+        setFormData({
+          name: '',
+          phone: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
       } else {
         alert('An error occurred! Please try again later.');
       }
