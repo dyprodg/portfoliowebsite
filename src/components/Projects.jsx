@@ -14,9 +14,9 @@ const Projects = () => {
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={FIRST} title='Tattoo Landingpage' link='https://tattoolanding.vercel.app'/>
-            <ProjectItem img={SECOND} title='AI Img Generator' link='https://ai-img-psi.vercel.app' />
+            
             <ProjectItem img={THIRD} title='Promptopia' link='https://promptopia-five-beta.vercel.app'/>
-            <ProjectItem img={FOURTH} title='fourthone' />
+            <ProjectItem img={FOURTH} title='AIOrchard' link='https://genai-six.vercel.app/'/>
         </div>
     </div>
   );
