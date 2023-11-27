@@ -80,7 +80,7 @@ const Contact = () => {
           <div className='flex flex-col'>
             <label className='uppercase text-sm py-2'>Name</label>
             <input
-              className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
+              className='border-none outline-none rounded-lg p-3 bg-gray-600 flex shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
               type='text'
               name='name'
               value={formData.name}
@@ -92,7 +92,7 @@ const Contact = () => {
           <div className='flex flex-col'>
             <label className='uppercase text-sm py-2'>Phone Number (optional)</label>
             <input
-              className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
+              className='border-none outline-none rounded-lg p-3 bg-gray-600 flex shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
               type='text'
               name='phone'
               value={formData.phone}
@@ -104,7 +104,7 @@ const Contact = () => {
         <div className='flex flex-col'>
           <label className='uppercase text-sm py-2'>Email</label>
           <input
-            className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white transition-shadow'
+            className='border-none outline-none rounded-lg p-3 bg-gray-600 flex shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
             type='email'
             name='email'
             value={formData.email}
@@ -116,7 +116,7 @@ const Contact = () => {
         <div className='flex flex-col'>
           <label className='uppercase text-sm py-2'>Subject</label>
           <input
-            className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
+            className='border-none outline-none rounded-lg p-3 bg-gray-600 flex shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
             type='text'
             name='subject'
             value={formData.subject}
@@ -127,7 +127,7 @@ const Contact = () => {
         <div className='flex flex-col'>
           <label className='uppercase text-sm py-2'>Message</label>
           <textarea
-            className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
+            className='border-none outline-none rounded-lg p-3 bg-gray-600 flex shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
             rows='10'
             name='message'
             value={formData.message}
