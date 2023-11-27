@@ -13,7 +13,7 @@ import Contact from './components/Contact'
 function App() {
   return (
     
-    <div className='bg-black/90 text-white'>
+    <div className='bg-gradient-to-r from-neutral-700 via-neutral-700 to-neutral-900 text-white'>
       <PreLoader />
       <Sidenav />
       <BackgroundPic />
