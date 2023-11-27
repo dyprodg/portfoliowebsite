@@ -19,8 +19,8 @@ const Sidenav = () => {
 
 
   return (
-    <div className='relative'>
-      <AiOutlineMenu onClick={handleNav} className='fixed top-4 right-4 z-[99] text-black md:hidden' />
+    <div className='relative text-black'>
+      <AiOutlineMenu onClick={handleNav} className='fixed top-4 right-4 z-[99] text-white md:hidden' />
       <AnimatePresence> 
       {nav && (
       <motion.div

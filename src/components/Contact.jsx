@@ -50,8 +50,8 @@ const Contact = () => {
 
   return (
     <div id='contact' className='max-w-[1040] m-auto md:pl-20 p-4'>
-      <h1 className='py-4 text-4xl font-bold text-center text-black shadow-gray-500'>Contact</h1>
-      <h1 className='py-10 text-2xl font-bold text-center text-black'>If you wish to get in touch with me, please feel free to reach out through the following social media platforms listed below.</h1>
+      <h1 className='py-4 text-4xl font-bold text-center'>Contact</h1>
+      <h1 className='py-10 text-2xl font-bold text-center'>If you wish to get in touch with me, please feel free to reach out through the following social media platforms listed below.</h1>
 
       <div className='flex m-auto pl-10 md:pl-0 py-28 max-w-[1040px] justify-center w-full'>
         <FaTwitter
@@ -80,7 +80,7 @@ const Contact = () => {
           <div className='flex flex-col'>
             <label className='uppercase text-sm py-2'>Name</label>
             <input
-              className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow'
+              className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
               type='text'
               name='name'
               value={formData.name}
@@ -92,7 +92,7 @@ const Contact = () => {
           <div className='flex flex-col'>
             <label className='uppercase text-sm py-2'>Phone Number (optional)</label>
             <input
-              className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow'
+              className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
               type='text'
               name='phone'
               value={formData.phone}
@@ -104,7 +104,7 @@ const Contact = () => {
         <div className='flex flex-col'>
           <label className='uppercase text-sm py-2'>Email</label>
           <input
-            className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow'
+            className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white transition-shadow'
             type='email'
             name='email'
             value={formData.email}
@@ -116,7 +116,7 @@ const Contact = () => {
         <div className='flex flex-col'>
           <label className='uppercase text-sm py-2'>Subject</label>
           <input
-            className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow'
+            className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
             type='text'
             name='subject'
             value={formData.subject}
@@ -127,7 +127,7 @@ const Contact = () => {
         <div className='flex flex-col'>
           <label className='uppercase text-sm py-2'>Message</label>
           <textarea
-            className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md hover:shadow-lg transition-shadow'
+            className='border-2 rounded-lg p-3 flex border-gray-300 shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
             rows='10'
             name='message'
             value={formData.message}
@@ -136,7 +136,7 @@ const Contact = () => {
             required
           />
         </div>
-        <button className='bg-black text-white mt-4 w-full p-4 rounded-lg shadow-lg hover:scale-105 ease-in duration-100' type='submit'>
+        <button className='bg-white text-black text-2xl mt-4 w-full p-4 rounded-lg shadow-md shadow-white active:scale-95 ease-in duration-100' type='submit'>
           Send Message
         </button>
       </form>

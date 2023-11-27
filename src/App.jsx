@@ -13,7 +13,7 @@ import Contact from './components/Contact'
 function App() {
   return (
     
-    <div>
+    <div className='bg-black/90 text-white'>
       <PreLoader />
       <Sidenav />
       <BackgroundPic />
