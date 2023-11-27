@@ -9,8 +9,7 @@ const Projects = () => {
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
         <h1 className='text-4xl font-bold text-center'>Projects</h1>
         <p className='text-center py-8'>
-         These projects highlight my versatility as a content creator and my ability to adapt to different styles and genres. I take pride in delivering high-quality work that not only meets my clients' objectives but also resonates with their target audience. 
-        </p>
+        Welcome to the showcase of my passion for crafting digital experiences. Here, you'll discover a curated selection of my web development projects, each meticulously designed and engineered to push the boundaries of what's possible with JavaScript. From interactive websites to sophisticated single-page applications, my portfolio is a testament to my commitment to innovation, usability, and clean code. Dive in to see how my blend of creativity and technical expertise brings ideas to life on the screen.        </p>
         <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={FOURTH} title='AIOrchard (AI Text/Code/Images)' link='https://genai-six.vercel.app/'/>
             <ProjectItem img={FIRST} title='Tattoo Landingpage' link='https://tattoolanding.vercel.app'/>
