@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Impressum from './components/Impressum'
 import PreLoader from './components/PreLoader'
 import Contact from './components/Contact'
+import VideoPlayer from './components/video'
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <PreLoader />
       <Sidenav />
       <BackgroundPic />
+      <VideoPlayer />
       <Work />
       <Projects />
       <Contact />
