@@ -16,17 +16,17 @@ const BackgroundPic = () => {
       <img className='w-full h-screen object-cover object-top' src={picture} alt='Dennis'/>
       <div className='w-full h-screen absolute top-0 left-0 bg-black/70'>
         <div className='max-w-[700px] md:max-w-[800px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-          <h1 className='sm:text-5xl text-4xl font-bold text-white'>Hi! My Name Is Dennis</h1>
-          <h2 className='flex sm:text-3xl text-2xl pt-4 text-white'>I'm
+          <h1 className='sm:text-5xl text-4xl font-bold text-white'>Hi! Mein Name ist Dennis</h1>
+          <h2 className='flex sm:text-3xl text-2xl pt-4 text-white'>Ich bin
           <TypeAnimation
             sequence={[
-            'a Software Engineer',
+            'ein Junior Software Engineer',
             1000,
-            'a Tech Enthusiast',
+            'ein Tech Enthusiast',
             1000,
-            'a DevOps',
+            'ein DevOps',
             1000,
-            'a Junior Web Developer',
+            'ein Junior Web Developer',
             1000
             ]}
             wrapper="span"
@@ -63,8 +63,8 @@ const BackgroundPic = () => {
           animate={{ opacity: 1, x: 0}}
           transition={{ duration: 0.5, delay: 6 }}
           className='max-w-[700px] mt-20 text-xl py-5 px-5 text-gray-800'>
-            <h1 className='font-bold text-2xl text-white'>What are my goals?</h1>
-            <p className='text-white'>My long-term goal is to acquire a range of skills in the IT industry, allowing me to evolve into a full-stack developer with increasing experience.My primary focus leans a bit more towards frontend, as I have been involved with design and UI/UX for a while now. However, I am equally interested in expanding my horizons in the backend and Infrastructure as Code (IaC).</p>
+            <h1 className='font-bold text-2xl text-white'>Was sind meine Ziele?</h1>
+            <p className='text-white'>Mein langfristiges Ziel ist es, eine Vielzahl von Fähigkeiten in der IT-Branche zu erwerben, um mich zu einem Full-Stack-Entwickler mit zunehmender Erfahrung zu entwickeln. Mein Hauptaugenmerk liegt etwas mehr auf dem Frontend, da ich schon eine Weile im Bereich Design und UI/UX tätig bin. Allerdings bin ich ebenso daran interessiert, meine Horizonte im Backend und bei Infrastructure as Code (IaC) zu erweitern.</p>
 
           </motion.div>
 

@@ -7,10 +7,10 @@ import FOURTH from '../assets/FOURTH.jpeg';
 const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-        <h1 className='text-4xl font-bold text-center'>Projects</h1>
+        <h1 className='text-4xl font-bold text-center'>Projekte</h1>
         <p className='text-center py-8'>
-        Welcome to the showcase of my passion for crafting digital experiences. Here, you'll discover a curated selection of my web development projects, each meticulously designed and engineered to push the boundaries of what's possible with JavaScript. From interactive websites to sophisticated single-page applications, my portfolio is a testament to my commitment to innovation, usability, and clean code. Dive in to see how my blend of creativity and technical expertise brings ideas to life on the screen.        </p>
-        <div className='grid sm:grid-cols-2 gap-12'>
+        Willkommen in der Präsentation meiner Leidenschaft für die Gestaltung digitaler Erlebnisse. Hier finden Sie eine sorgfältig ausgewählte Auswahl meiner Webentwicklungsprojekte, die alle akribisch gestaltet und entwickelt wurden, um die Grenzen dessen zu erweitern, was mit JavaScript möglich ist. Von interaktiven Websites bis hin zu anspruchsvollen Single-Page-Anwendungen ist mein Portfolio ein Zeugnis meiner Hingabe zu Innovation, Benutzerfreundlichkeit und sauberem Code. Tauchen Sie ein und sehen Sie, wie meine Mischung aus Kreativität und technischer Expertise Ideen auf dem Bildschirm zum Leben erweckt.
+</p>        <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={FOURTH} title='AIOrchard (AI Text/Code/Images)' link='https://genai-six.vercel.app/'/>
             <ProjectItem img={FIRST} title='Tattoo Landingpage' link='https://tattoolanding.vercel.app'/>
             

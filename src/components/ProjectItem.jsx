@@ -12,7 +12,7 @@ const ProjectItem = ({ img, title , link}) => {
   <a>
   <p onClick={() => window.open(link, '_blank')}
    className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg w-[150px] hover:scale-110 ease-in duration-150'>
-  More Info
+  Seite besuchen
 </p>
   </a>
 </div>

@@ -23,7 +23,7 @@ const Contact = () => {
     })
     .then(response => {
       if (response.ok) {
-        alert('Your Message was send successfully!');
+        alert('Dein Nachricht wurde erfolgreich versendet!');
         setFormData({
           name: '',
           phone: '',
@@ -32,11 +32,11 @@ const Contact = () => {
           message: '',
         });
       } else {
-        alert('An error occurred! Please try again later.');
+        alert('Ein Fehler ist aufgetreten, bitte versuche es nochmal');
       }
     })
     .catch(error => {
-      alert('An error occurred! Please try again later.');
+      alert('Ein Fehler ist aufgetreten, bitte versuche es nochmal');
     });
   };
 
@@ -50,8 +50,9 @@ const Contact = () => {
 
   return (
     <div id='contact' className='max-w-[1040] m-auto md:pl-20 p-4'>
-      <h1 className='py-4 text-4xl font-bold text-center'>Contact</h1>
-      <h1 className='py-10 text-2xl font-bold text-center'>If you wish to get in touch with me, please feel free to reach out through the following social media platforms listed below.</h1>
+      <h1 className='py-4 text-4xl font-bold text-center'>Kontakt</h1>
+      <h1 className='py-10 text-2xl font-bold text-center'>Wenn Sie mit mir in Kontakt treten möchten, können Sie dies gerne über die unten aufgeführten Social-Media-Plattformen tun.
+</h1>
 
       <div className='flex m-auto pl-10 md:pl-0 py-28 max-w-[1040px] justify-center w-full'>
         <FaTwitter
@@ -90,14 +91,14 @@ const Contact = () => {
             />
           </div>
           <div className='flex flex-col'>
-            <label className='uppercase text-sm py-2'>Phone Number (optional)</label>
+            <label className='uppercase text-sm py-2'>Telefonnummer (optional)</label>
             <input
               className='border-none outline-none rounded-lg p-3 bg-gray-600 flex shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
               type='text'
-              name='phone'
+              name='Telefonnummer'
               value={formData.phone}
               onChange={handleChange}
-              placeholder='Phone Number'
+              placeholder='Telefonnummer'
             />
           </div>
         </div>
@@ -114,30 +115,30 @@ const Contact = () => {
           />
         </div>
         <div className='flex flex-col'>
-          <label className='uppercase text-sm py-2'>Subject</label>
+          <label className='uppercase text-sm py-2'>Betreff</label>
           <input
             className='border-none outline-none rounded-lg p-3 bg-gray-600 flex shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
             type='text'
-            name='subject'
+            name='Betreff'
             value={formData.subject}
             onChange={handleChange}
-            placeholder='Subject'
+            placeholder='Betreff'
           />
         </div>
         <div className='flex flex-col'>
-          <label className='uppercase text-sm py-2'>Message</label>
+          <label className='uppercase text-sm py-2'>Nachricht</label>
           <textarea
             className='border-none outline-none rounded-lg p-3 bg-gray-600 flex shadow-md shadow-white/60 hover:shadow-white  transition-shadow'
             rows='10'
             name='message'
             value={formData.message}
             onChange={handleChange}
-            placeholder='Write me a message!'
+            placeholder='Schreibe deine Nachricht hier!'
             required
           />
         </div>
         <button className='bg-white text-black text-2xl mt-4 w-full p-4 rounded-lg shadow-md shadow-white active:scale-95 ease-in duration-100' type='submit'>
-          Send Message
+          Nachricht Senden
         </button>
       </form>
     </div>

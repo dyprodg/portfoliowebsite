@@ -11,9 +11,10 @@ const Impressum = () => {
         <p>Email: dennisdiepolder@outlook.com</p>
       </div>
       <div className="w-full sm:w-1/2 md:w-1/3 p-4 text-xs">
-        <h2 className="text-lg font-semibold mb-4">Legal Information</h2>
-        <p>This website only uses technically necessary cookies. These cookies are essential for the operation of the website and do not store any personally identifiable information. By continuing to browse the site, you agree to the use of these cookies. The website collects no personal data.</p>
-        <p>This website stores no userdata</p>
+        <h2 className="text-lg font-semibold mb-4">Rechtliche Informationen</h2>
+        <p>Diese Website verwendet ausschließlich technisch notwendige Cookies. Diese Cookies sind für den Betrieb der Website unerlässlich und speichern keine personenbezogenen Informationen. Durch die weitere Nutzung der Website stimmen Sie der Verwendung dieser Cookies zu. Die Website sammelt keine persönlichen Daten.</p>
+        <p>Diese Website speichert keine Benutzerdaten.</p>
+
       </div>
     </div>
   );

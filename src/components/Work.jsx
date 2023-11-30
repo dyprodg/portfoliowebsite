@@ -6,36 +6,35 @@ const data = [
     {
         year: 2023,
         title: 'Student',
-        duration: 'expected end on April 2024 or earlier',
-        details: `I'm enrolled in a comprehensive bootcamp covering cloud computing, DevOps, and software engineering while also pursuing self-directed programming learning.`
+        duration: 'voraussichtliches Ende im April 2024 oder früher',
+        details: `Ich nehme an einer Weiterbildung zum DevOps- und Webentwickler teil, die Themen wie Cloud Computing, DevOps und Softwareentwicklung abdeckt. Gleichzeitig vertiefe ich meine Kenntnisse im selbstgesteuerten Programmieren.`
     },
     {
         year: 2022,
         title: 'Freelancer',
-        duration: 'until April 2023',
-        details: `Over the past year, I've explored freelance photography editing and shirt design as hobbies, fostering my creativity.`
+        duration: 'bis April 2023',
+        details: `Im Laufe des letzten Jahres habe ich mich mit freiberuflicher Fotobearbeitung und T-Shirt-Design als Hobbys beschäftigt und meine Kreativität gefördert.`
     },
     {
         year: 2019,
-        title: 'Audio Engineer',
-        duration: 'still',
-        details: `Since 2019, I've immersed myself in audio engineering, focusing on various music genres, refining my skills in my home studio.`
+        title: 'Audioingenieur',
+        duration: 'bis 2023',
+        details: `Seit 2019 vertiefe ich mich in die Audiotechnik und konzentriere mich auf verschiedene Musikgenres, um meine Fähigkeiten in meinem Heimstudio zu verfeinern.`
     },
     {
         year: 2018,
-        title: 'Salesman',
-        duration: 'until 2022',
-        details: `From retail to IT, I've shifted my career path, leveraging my background in data management and leadership for success.`
+        title: 'Verkäufer',
+        duration: 'bis 2022',
+        details: `Vom Einzelhandel zur IT habe ich meine Karriere umgestellt und meine Erfahrung im Datenmanagement und in der Führung für meinen Erfolg genutzt.`
     },
     {
         year: 2014,
         title: 'Content Creator',
-        duration: 'still',
-        details: `As a content creator, I combine music and video production skills using tools like DaVinci Resolve and After Effects to create engaging content that resonates with audiences.`
+        duration: 'bis 2023',
+        details: `Als Content Creator kombiniere ich Musik- und Videoproduktionsfähigkeiten unter Verwendung von Tools wie DaVinci Resolve und After Effects, um ansprechende Inhalte zu erstellen, die bei meinem Publikum Anklang finden.`
     },
-
-
 ];
+
 const Work = () => {
   return (
     <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
