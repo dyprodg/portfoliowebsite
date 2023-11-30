@@ -1,7 +1,7 @@
 import React from 'react';
 
 const VideoPlayer = () => {
-  const videoUrl = 's3://dennis-video-portfolio/bewerbungsvideo-final.mp4';
+  const videoUrl = 'https://dennis-video-portfolio.s3.eu-central-1.amazonaws.com/bewerbungsvideo-final.mp4';
 
   return (
     <div className='flex w-full justify-center items-center'>
