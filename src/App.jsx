@@ -7,6 +7,7 @@ import Impressum from './components/Impressum'
 import PreLoader from './components/PreLoader'
 import Contact from './components/Contact'
 import VideoPlayer from './components/video'
+import Techstack from './components/techstack'
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Sidenav />
       <BackgroundPic />
       <VideoPlayer />
+      <Techstack />
       <Work />
       <Projects />
       <Contact />
