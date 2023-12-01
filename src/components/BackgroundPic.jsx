@@ -62,7 +62,7 @@ const BackgroundPic = () => {
           initial={{ opacity: 0, x: 500}}
           animate={{ opacity: 1, x: 0}}
           transition={{ duration: 0.5, delay: 6 }}
-          className='max-w-[700px] mt-20 text-xl py-5 px-5 text-gray-800'>
+          className='max-w-[700px] mt-20 text-xl py-5 text-gray-800'>
             <h1 className='font-bold text-2xl text-white'>Was sind meine Ziele?</h1>
             <p className='text-white'>Mein langfristiges Ziel ist es, eine Vielzahl von Fähigkeiten in der IT-Branche zu erwerben, um mich zu einem Full-Stack-Entwickler mit zunehmender Erfahrung zu entwickeln. Mein Hauptaugenmerk liegt etwas mehr auf dem Frontend, da ich schon eine Weile im Bereich Design und UI/UX tätig bin. Allerdings bin ich ebenso daran interessiert, meine Horizonte im Backend und bei Infrastructure as Code (IaC) zu erweitern.</p>
 
