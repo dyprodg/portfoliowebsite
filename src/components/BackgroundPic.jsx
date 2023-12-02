@@ -15,7 +15,7 @@ const BackgroundPic = () => {
     >
       <img className='w-full h-screen object-cover object-top' src={picture} alt='Dennis'/>
       <div className='w-full h-screen absolute top-0 left-0 bg-black/70'>
-        <div className='max-w-[700px] md:max-w-[800px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
+        <div className='max-w-[700px] md:max-w-[800px] m-auto h-full w-full flex flex-col p-6 md:p-0 justify-center lg:items-start items-center text-center md:text-left'>
           <h1 className='sm:text-5xl text-4xl font-bold text-white'>Hi! Mein Name ist Dennis</h1>
           <h2 className='flex sm:text-3xl text-2xl pt-4 text-white'>Ich bin
           <TypeAnimation

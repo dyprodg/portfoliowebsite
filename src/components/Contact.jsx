@@ -76,7 +76,7 @@ const Contact = () => {
           size={100} />
       </div>
 
-      <form className='pr-4' onSubmit={handleSubmit}>
+      <form className='md:pr-4 p-6' onSubmit={handleSubmit}>
         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
           <div className='flex flex-col'>
             <label className='uppercase text-sm py-2'>Name</label>
