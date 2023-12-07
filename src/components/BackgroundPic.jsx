@@ -17,7 +17,7 @@ const BackgroundPic = () => {
       <div className='w-full h-screen absolute top-0 left-0 bg-black/70'>
         <div className='max-w-[700px] md:max-w-[800px] m-auto h-full w-full flex flex-col p-6 md:p-0 justify-center lg:items-start items-center text-center md:text-left'>
           <h1 className='sm:text-5xl text-4xl font-bold text-white'>Hi! Mein Name ist Dennis</h1>
-          <h2 className='flex sm:text-3xl text-2xl pt-4 text-white'>Ich bin
+          <h2 className='flex sm:text-3xl text-xl pt-4 text-white'>Ich bin
           <TypeAnimation
             sequence={[
             'ein Junior Software Engineer',
@@ -64,7 +64,7 @@ const BackgroundPic = () => {
           transition={{ duration: 0.5, delay: 6 }}
           className='max-w-[700px] mt-20 text-xl py-5 text-gray-800'>
             <h1 className='font-bold text-2xl text-white'>Was sind meine Ziele?</h1>
-            <p className='text-white'>Mein langfristiges Ziel ist es, eine Vielzahl von Fähigkeiten in der IT-Branche zu erwerben, um mich zu einem Full-Stack-Entwickler mit zunehmender Erfahrung zu entwickeln. Mein Hauptaugenmerk liegt etwas mehr auf dem Frontend, da ich schon eine Weile im Bereich Design und UI/UX tätig bin. Allerdings bin ich ebenso daran interessiert, meine Horizonte im Backend und bei Infrastructure as Code (IaC) zu erweitern.</p>
+            <p className='text-white'>Mein Ziel ist es, eine Vielzahl von Fähigkeiten in der IT-Branche zu erwerben, um mich zu einem Full-Stack-Entwickler mit zunehmender Erfahrung zu entwickeln. Mein Hauptaugenmerk liegt etwas mehr auf dem Frontend, da ich schon eine Weile im Bereich Design und UI/UX tätig bin. Allerdings bin ich ebenso daran interessiert, meine Horizonte im Backend und bei Infrastructure as Code (IaC) zu erweitern.</p>
 
           </motion.div>
 
