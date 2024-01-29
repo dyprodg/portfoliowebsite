@@ -50,6 +50,7 @@ const YourComponent = () => {
             ))}
           </div>
         </div>
+        
       </div>
     </IconContext.Provider>
   );
