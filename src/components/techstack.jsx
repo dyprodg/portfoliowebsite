@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { SiNextdotjs, SiJavascript,SiPython, SiDocker, SiAwslambda, SiKubernetes,SiVite, SiMysql, SiHtml5, SiMongodb, SiAmazondynamodb, SiStripe, SiOpenai, SiTailwindcss, SiVercel, SiPrisma, SiCss3, SiGithub  } from "react-icons/si";
+import { SiNextdotjs, SiJavascript,SiPython,SiJenkins, SiTerraform, SiAnsible, SiDocker, SiAwslambda, SiKubernetes,SiVite, SiMysql, SiHtml5, SiMongodb, SiAmazondynamodb, SiStripe, SiOpenai, SiTailwindcss, SiVercel, SiPrisma, SiCss3, SiGithub  } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaAws } from "react-icons/fa6";
 
@@ -27,6 +27,9 @@ const YourComponent = () => {
     SiPrisma,
     SiCss3,
     SiGithub,
+    SiJenkins,
+    SiTerraform,
+    SiAnsible,
     
   ];
 

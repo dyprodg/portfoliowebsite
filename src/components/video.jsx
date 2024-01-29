@@ -1,7 +1,7 @@
 import React from 'react';
 
 const VideoPlayer = () => {
-  const videoUrl = 'https://d3nohlcdf7fia8.cloudfront.net/output.m3u8';
+  const videoUrl = 'https://d3nohlcdf7fia8.cloudfront.net/output.mp4';
 
   return (
     <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-6'>
