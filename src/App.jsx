@@ -22,9 +22,7 @@ function App() {
       <Techstack />
       <Work />
       <Projects />
-      <Contact />
       <Impressum />
-
     </div>
   )
 }

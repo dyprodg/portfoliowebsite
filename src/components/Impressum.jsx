@@ -8,7 +8,7 @@ const Impressum = () => {
         <p>Name: Dennis Diepolder</p>
         <p>City: 82279 Eching</p>
         <p>Phone: +4916091208750</p>
-        <p>Email: dennisdiepolder@outlook.com</p>
+        <p>Email: info@dennisdiepolder.com</p>
       </div>
       <div className="w-full sm:w-1/2 md:w-1/3 p-4 text-xs">
         <h2 className="text-lg font-semibold mb-4">Rechtliche Informationen</h2>
